@@ -1,0 +1,132 @@
+Head Section -
+has title , meta , base url ,style ,script ,link
+body:.............
+    paragraphs
+    div
+    span
+    table
+    form
+    pre
+    a
+    ect
+}}}
+this are inside the body 
+  
+    • if the display default is -- block level elements are separte content  in its own block with a line break before and after it
+	• eg  for block level elements are  <p> , <div> , <ol>,<ul>,<li>
+
+
+where as span is inline display with out any formating of its own
+eg : <img> , <span> ,<a>, <td> ,<em>
+
+
+new semantic elements of html5
+
+
+header
+footer
+section
+nav
+aside
+article
+
+
+	• Tables
+		○ th
+		○ tr
+		○ td
+		○ caption
+		○ thead
+		○ tbody
+		○ tfoot
+		○ colspan
+		○ rowspan
+       
+       
+       
+        <table>: The container for the entire table.
+            <caption>: Provides a title or explanation for the table.
+            <thead>: Contains the header row(s) of the table.
+            <tbody>: Contains the body content of the table.
+            <tfoot>: Contains the footer row(s) of the table.
+            <tr>: Represents a table row.
+            <th>: Represents a header cell in a table (bold and centered by default).
+            <td>: Represents a standard data cell in a table.
+            colspan: Specifies the number of columns a table cell should span.
+            rowspan: Specifies the number of rows a table cell should span.
+
+	• Lists 
+		○ ol-orderd  list
+		○ ul
+        dl list
+
+	• Links
+    The most important attribute of the <a> element is the href attribute, which indicates the link's destination.
+         
+        syntax :--------------- <a href="dcjhh"> helo</a>
+        <a > 
+		
+        
+        ○ a tag
+			§ href attribute
+				□ relative
+				□ absolute urls
+				□ also show using id to point to a particular part of the page
+			
+            
+                § target attribute
+				□ where target = "_self"
+				□ target="_top" or "_blank"  or _parent
+				□ try out all these values for target attribute
+                
+                
+                
+                The target attribute specifies where to open the linked document.
+
+                The target attribute can have one of the following values:
+                 syntax :-------- <a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+               
+               
+                 _self - Default. Opens the document in the same window/tab as it was clicked
+                _blank - Opens the document in a new window or tab
+                _parent - Opens the document in the parent frame
+                _top - Opens the document in the full body of the window
+
+
+ links by -------- buttons
+                   tittle
+                   images
+                   email
+
+
+
+
+  
+	• img tag
+    ○ src attribute
+    ○ alt attribute
+
+  syntax:<------>
+   <img src="" alt="Workplace" usemap="#workmap" width="400" height="379">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  Assignment - day 3
+  
+    ○ create hyperlinks in list 
+    § create a list of cities and hyperlink them to their respective detail page
+
+• similarly create links in table in td , and link it to a html
+
+
+
+
+
+
+
